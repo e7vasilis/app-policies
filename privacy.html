@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | ATC Sync</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; background: #f9f9f9; }
+        .container { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+        h1 { color: #1e293b; border-bottom: 2px solid #3b82f6; padding-bottom: 10px; }
+        h2 { color: #1e293b; margin-top: 30px; }
+        .highlight { background: #eff6ff; border-left: 4px solid #3b82f6; padding: 15px; margin: 20px 0; font-style: italic; }
+        footer { margin-top: 50px; font-size: 0.8em; color: #64748b; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for ATC Sync</h1>
+        <p><strong>Effective Date:</strong> April 25, 2026</p>
+
+        <p>ATC Sync ("the Application") is a coordination tool for Air Traffic Controllers. This Privacy Policy explains how we collect, use, and protect your information when you use our service.</p>
+
+        <h2>1. Information We Collect</h2>
+        <ul>
+            <li><strong>Personal Profile Data:</strong> We collect your Name, Email Address, Username (Callsign), and Profile Picture provided via Google OAuth to allow other controllers to identify and connect with you.</li>
+            <li><strong>Schedule Data:</strong> We store the shift schedules you "paint" or generate within the app to calculate overlaps with your connections.</li>
+            <li><strong>Usage Data:</strong> We use PostHog to collect anonymized technical data (device type, pages visited) to improve app performance and troubleshoot errors.</li>
+        </ul>
+
+        <h2>2. Use of Google User Data</h2>
+        <p>ATC Sync requests access to your Google Calendar (via the <code>auth/calendar</code> scope). This access is used for the following strictly limited purpose:</p>
+        <div class="highlight">
+            <strong>Dedicated Synchronization:</strong> We use this permission exclusively to create and manage a dedicated secondary calendar named "ATC Sync". This allows your work shifts to be visible on your devices without modifying, reading, or cluttering your primary personal calendar.
+        </div>
+        <p><strong>We do not read, delete, or modify any events on your primary or other personal calendars.</strong></p>
+
+        <h2>3. Google API Disclosure (Limited Use)</h2>
+        <p>ATC Sync's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Service User Data Policy</a>, including the Limited Use requirements.</p>
+
+        <h2>4. Data Sharing & Third Parties</h2>
+        <p>We do not sell your data. We share information only with the following service providers necessary for app functionality:</p>
+        <ul>
+            <li><strong>Supabase:</strong> For secure database storage and authentication.</li>
+            <li><strong>PostHog:</strong> For product analytics and session recording for technical support.</li>
+        </ul>
+
+        <h2>5. Your Rights: The "Hard Delete"</h2>
+        <p>We believe in your right to be forgotten. ATC Sync provides a <strong>Delete Account</strong> feature in the application settings. Triggering this action will result in the immediate and permanent erasure of your profile, all shift history, and all integration tokens from our servers.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have questions about this policy, please contact Vasileios Evangelakos at: <br>
+        <a href="mailto:vasilis.app.contact@gmail.com">vasilis.app.contact@gmail.com</a></p>
+    </div>
+    <footer>
+        &copy; 2026 ATC Sync. All rights reserved.
+    </footer>
+</body>
+</html>
